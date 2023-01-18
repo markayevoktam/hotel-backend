@@ -1,4 +1,4 @@
-package net.idrok.talababackend;
+		package net.idrok.talababackend;
 
 import net.idrok.talababackend.entity.User;
 import net.idrok.talababackend.repository.UserRepository;
@@ -11,7 +11,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.util.Optional;
 
-@SpringBootApplication
+@SpringBootApplication	
 public class TalabaBackendApplication implements ApplicationRunner {
 
 	public static void main(String[] args) {
